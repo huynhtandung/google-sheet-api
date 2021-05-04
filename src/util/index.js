@@ -1,1 +1,1 @@
-export * from "./readGoogleSheet"
+export * from "./google-sheet"

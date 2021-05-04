@@ -1,5 +1,5 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const config = require('./gg.json')
+const config = require('./config.json')
 
 const initGoogleSheet = async (sheetURL) => {
 	return new Promise((resolve, reject) => {
